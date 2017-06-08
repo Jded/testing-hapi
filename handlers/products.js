@@ -6,6 +6,8 @@ const _ = require('lodash');
 // handlers are exported back for use in hapi routes
 const Handlers = {};
 
+const Nothing = {};
+
 // Lib contains our business specific logic
 const Lib = {};
 
