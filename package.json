@@ -4,7 +4,8 @@
   "description": "Example hapi-backed API serivce with testing and CI.",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
+    "start": "forever start app.js",
+    "stop": "forever stopall",
     "test": "NODE_ENV=test node node_modules/lab/bin/lab -v -r junit -o report.xml",
     "test-cov-html": "lab -r junit -o reportCoverage.xml"
   },
