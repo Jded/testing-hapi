@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node app.js",
     "test": "NODE_ENV=test node node_modules/lab/bin/lab -v -L -C -D -c -t 85 -r junit -o report.xml",
-    "test-cov-html": "lab -r html -o coverage.html"
+    "test-cov-html": "lab -r junit -o reportCoverage.xml"
   },
   "repository": {
     "type": "git",
