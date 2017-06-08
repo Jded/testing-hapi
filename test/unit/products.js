@@ -20,7 +20,7 @@ describe('unit tests - products', () => {
         // test lib function
         ProductHandlers.lib.getProducts().done((products) => {
 
-            expect(products).to.be.an.array().and.have.length(2);
+            expect(products).to.be.an.array().and.have.length(3);
 
             done();
         }, (err) => {
